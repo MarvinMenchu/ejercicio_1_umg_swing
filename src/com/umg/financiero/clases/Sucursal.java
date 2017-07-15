@@ -92,7 +92,7 @@ public class Sucursal {
                 ", nombre='" + nombre + '\'' +
                 ", direccion='" + direccion + '\'' +
                 ", telefono='" + telefono + '\'' +
-                ", cliente=" + Arrays.toString(cliente) +
+                ", clientes=" + cliente.length +
                 '}';
     }
 }
